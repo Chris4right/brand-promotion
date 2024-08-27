@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: Roboto, sans-serif;
+}
+/****************************header-section***********/
+.header{
+    height: 100vh;
+}
+/************************Navigation*************/
+.nav::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nav-logo{
+    float: left;
+    padding: 5px 10px;
+    border: 3px dotted wheat;
+    margin-left: 50px;
+}
+
+.nav-link{
+    float: right;
+    padding: 5px 10px;
+    border: 3px dotted wheat;
+    margin-right: 50px;
+}
+
+.nav .nav-logo a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link a{
+    color: black;
+    text-decoration: none;
+}
+/*****************************Hero-Section****************/
+.hero{
+    padding-top: 70px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero-heading{
+    font-size: 50px;
+}
+.hero-text-parag{
+    margin: 30px 0;
+}
+.hero-image img{
+    width: 100%;
+}
+/********* Buttons *******************************************/
+.btn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+.btn-about{
+    border-radius: 0;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(55, 47, 47);
+}
+.btn-service{
+    border-radius: 0;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(55, 47, 47);
+    
+}
+.btn-service-box{
+    margin: 0 auto;
+    text-align: center;
+}
+.btn-bg-white{
+    background-color: white;
+    color: #48dfe4;
+}
+.btn-bg-aqua{
+    background-color: #48dfe4;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #48dfe4;
+    border-color: blue;
+    color: black;
+}
+
+
+/*****************************Row-&-Col-Section****************/
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class^=col-] {
+    float: left;
+}
+
+.col-1-of-2{
+    width: calc(100%  / 2);
+}
+.col-1-of-3{
+    width: calc(100% / 3);
+}
+/*****************************Brand-Section****************/
+.brand-offer-box{
+    padding: 70px 35px;
+    color: white;
+    text-align: center;
+}
+.brand-heading{margin-bottom: 25px;}
+.brand-offer-box-1{background-color: black;}
+.brand-offer-box-2{ background-color:#48dfe4;}
+.brand-offer-box-3{background-color: #0d8a90;}
+
+.about{
+    padding: 90px 250px;
+}
+
+.about-textbox{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-image{
+    font-size: 70px;
+    font-weight: 20px;
+}
+
+.about-heading{
+    font-size: 30px;
+    margin: 30px 0;
+}
+.about-para{
+    margin-bottom: 30px;
+}
+
+.brand-right{
+    
+}
+.brand-right-heading{
+    padding: 10px 0;
+}
+.brand-right-image img{
+    width: 100%;
+    height: 100%;
+}
+.brand-right-textbox{
+    background-color: #48dfe4;
+    padding: 65px 60px 30px 90px;
+}
+.brand-right-heading{
+    font-size: 35px;
+}
+.brand-right-para{
+    margin: 20px 0;
+}
+
+.brand-service{
+    padding: 100px 0;
+}
+
+.brand-service-textbox{
+    text-align: center;
+}
+.brand-service-heading{
+    margin: 40px;
+}
+.brand-service-para{
+    margin-bottom: 30px;
+}
+.Service-circle-container{
+    text-align: center;
+    padding: 30px 20px;
+}
+.service-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #48dfe4;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    margin: 0 auto;
+}
+.service-circle-heading{
+    margin: 15px 0;
+}
+.service-circle-para{
+    margin-bottom: 30px;
+}
+
+.skill-com-section{
+    padding:none;
+    background-color: #f0f0f0;
+}
+.skill-com-textbox{
+    padding: 50px;
+}
+.skill-com-textbox-para{
+    margin: 20px 0;
+    font-size: 15px;
+}
+.skill-com-textbox-heading{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.skill-com-image img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.get-to-know-section{
+    background-color: #48dfe4;
+    padding: 50px 30px;
+}
+.get-to-know-section::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.get-to-know-textbox{
+    float: left;
+}
+.btn-container{
+    float: right;
+}
+.get-to-know-heading{
+    margin-bottom: 30px;
+}
+.get-to-know-para{
+    
+}
+
+.marketing-section{
+    text-align: center;
+    padding: 40px 0;
+}
+.marketing-heading{
+    margin: 25px;
+}
+.marketing-para{
+    margin-bottom: 200px;
+}
+
+.footer{
+    padding: 30px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*media quary for device width less than 900px(ipad devices)***/
+@media screen and (max-width: 900px){
+    .row {
+        padding: o 30px;
+        max-width: 100%;
+    }
+        [class^=col-] {
+        float: none;
+    }
+        [class^=col-] {
+        width: 100%;
+    }
+    .header {
+        height: 70vh;
+    }
+    .hero {
+	    max-width: 100%;
+        padding: 50px 20px;
+        background-color: blue
+    }
+    .hero-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+    .hero-text-parag {
+        margin: 30px 0;
+        text-align: center;
+    }
+    .brand-offer-box {
+        padding: 50px 30px;
+    }
+    .brand-heading {
+        font-size: 25px;
+    }
+    .about {
+        padding: 50px 20px;
+    }
+    .about-heading {
+        font-size: 25px;
+    }
+    .brand-right-textbox {
+        padding: 50px 45px 15px 45px;
+    }
+    .brand-right-heading {
+        font-size: 25px;
+        text-align: center;
+    }
+    .brand-service {
+        padding: 50px 0;
+    }
+    .brand-service-heading {
+        margin-bottom: 30px;
+    }
+    .brand-service-para {
+        margin-bottom: 10px;
+        padding: 0 30px;
+    }
+    .service-circle-heading {
+        margin: 15px 0;
+        font-size: 18px;
+    }
+    .service-circle-para {
+        margin-bottom: 0;
+    }
+    .get-to-know-heading {
+        text-align: center;
+    }
+    .btn-container {
+        float: none;
+        margin-top: 30px;
+    }
+    .skill-com-image img{
+        height: 100%;
+        width: 100%;
+    }
+    .get-to-know-para{
+        margin-bottom: 30px;
+    }
+    .marketing-section {
+        padding: 40px 30px;
+    }
+    .marketing-heading {
+        font-size: 25px;
+    }
+    .marketing-para {
+        margin-bottom: 100px;
+    }
+    .footer {
+        padding: 15px 0;
+    }
+}
+
+/*media quary for device width less than 480px(Mobile devices)***/
+@media screen and (max-width: 80px){
+    
+}
